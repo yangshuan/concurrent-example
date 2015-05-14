@@ -1,4 +1,4 @@
-package oom.example.atomic;
+package oom.example.concurrent.atomic;
 
 /**
  * This is the example for volatile

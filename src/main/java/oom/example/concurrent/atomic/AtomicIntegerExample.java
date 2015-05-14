@@ -1,14 +1,17 @@
-package oom.example.atomic;
+package oom.example.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * This is the example for AtomicBoolean
+ * It just make some operations atomicity.
+ * It uses volatile
  * Created by yangshuan on 15/5/13.
  */
 public class AtomicIntegerExample implements Runnable {
     private AtomicInteger value = new AtomicInteger(0);
 
+    @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
             value.incrementAndGet();
