@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Condition of ReentrantLock
- * Created by shuayang on 4/30/15.
+ * Created by yangshuan on 4/30/15.
  */
 public class ProducerConsumerExample {
     private class Queue {

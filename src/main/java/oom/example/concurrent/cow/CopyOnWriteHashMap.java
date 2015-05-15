@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * This is a simple copy-on-write HashMap
- * Created by shuayang on 5/15/15.
+ * Created by yangshuan on 5/15/15.
  */
 public class CopyOnWriteHashMap<K, V> implements Map<K, V> {
     private HashMap<K, V> map;

@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Test for try lock of ReentrantLock
- * Created by shuayang on 4/30/15.
+ * Created by yangshuan on 4/30/15.
  */
 public class TryLockExample {
     private Lock lock = new ReentrantLock();
